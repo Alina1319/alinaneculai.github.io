@@ -68,28 +68,36 @@ a{
     height: 100vh;
 } 
 .about-me{
-    padding: 20rem 20rem;
-
+    margin : 150px 0px 0px 100px;
+    text-align: center;
 }
 .name-heading{
     font-family: 'Mali', cursive;
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 200;
     color: white
 }
 .name-subheading{
-    text-align: center;
     color: white;
-    font-size: 2.3rem;
+    font-size: 4rem;
     font-weight: 200;
-     margin-left: -20%;
 }
 
 .my-description{
-
+    max-width: 800px;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color:rgb(0, 0, 0);
+    text-align: start;
+    margin-top: 80px
+}
+.my-description i{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 2px;
 }
 .my-img{
-    padding: 12rem 0rem 0rem 0rem;
+    margin: 100px 0px 0px 80px;
 }
 .hello-icon{
     width: 20rem;
@@ -102,4 +110,6 @@ a{
 .avatar-picture img{
     width: 100%;
     height: 100%;
+    filter: drop-shadow(30px 10px 4px #4444dd9c);
+    /* filter: drop-shadow(0 0 0.75rem rgb(23, 20, 220)); */
 }
