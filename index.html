@@ -13,17 +13,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 	crossorigin="anonymous" />
-
-
 </head>
 <body>
-    <nav class="navigation-bar">
+    <nav class="navigation-bar flex-container">
         <a href="#avatar">
             <img class= "avatar" src="./resources/imgs/avatar.png" alt="Go back to the top">
         </a>
         <div class="menu">
             <p class="menu-description">Student at </p>
-            <a class="link" href="">iO Academy</a>
+            <a class="link" href="#goto-academy">iO Academy</a>
             <p class="menu-description">Boring things</p>
             <a class="link" href="">About me</a>
             <p class="menu-description">Find me here </p>
@@ -36,7 +34,7 @@
             <a class="link" href="">CV</a>
         </div>
     </nav>
-    <main class="my-presentation">
+    <header class="my-presentation flex-container">
         <div class="about-me">
             <div class="name-heading">
                 <h1>Alina Neculai</h1>
@@ -45,22 +43,36 @@
                 <p> Trying and hoping to become a full-stack <br> web developer</p>
             </div>
             <div class="my-description">
-                <p> Hi and welcome to my page. </p>
+                <p> Hi and welcome to my page.
                     <br>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy <br>
                     <br>
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    but also the leap into electronic typesetting, remaining essentially unchanged.
                 </p>
             </div>
         </div>
         <div class="my-img">  
             <div>
-                <img class="hello-icon"src="./resources/imgs/bubbles-speech-hi-png.png" alt="hello">
+                <img class="hello-icon" src="./resources/imgs/bubbles-speech-hi-png.png" alt="hello">
             </div>
             <div class="avatar-picture"><img src="./resources/imgs/hq-removebg.png" alt="my-avatar">
             </div>      
         </div>
-    </main>
+    </header>
+        <section class="academy flex-container" id="goto-academy">
+            <div class="io-image">
+                  <img src="./resources/imgs/iO_Academy_FullStack.png" alt="">
+                </div>
+            <div class="io-academy">
+                <div class="academy-details flex-container">
+                    <p class="web-titles" > Academy</p>
+                </div>
+                <p class="start-date web-subtitles"> Full-stack Web Development Student <br> start on 4th May 2021</p>
+                <p class="opinion"> I started this bootcamp  with the hope of learning to code and start a career in a role that gives me rewards. I want topush myself, <br> meet new people, learn everything in the next 16 weeks.</p>
+            </div>
+    </section>
+    <section class="about">
+    </section>
 </body>
 </html>
