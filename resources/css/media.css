@@ -109,7 +109,8 @@
     .name-subheading{
         font-size: 3.5rem;
     }
-    .hello-icon, .home-scroller{
+    .hello-icon, 
+    .home-scroller{
         display: none;
     }
 }
@@ -224,7 +225,8 @@
     .start-date::after{
         display: none;
     }
-    .portfolio-heading, .about-section-subheading{
+    .portfolio-heading, 
+    .about-section-subheading{
         font-size: 7em;
     }
     .about{
@@ -279,7 +281,8 @@
     .about-section-subheading{
         font-size: 5rem;
     }
-    .academy-heading, .portfolio-heading{
+    .academy-heading, 
+    .portfolio-heading{
         font-size: 4.35em;
     }
     .academy-details p::before{
