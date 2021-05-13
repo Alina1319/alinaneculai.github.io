@@ -35,10 +35,6 @@
     .about-me {
         margin: 10px 0 0 80px;
     }
-
-    .avatar2 {
-        margin-top: -50px;
-    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -87,7 +83,7 @@
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1405px) {
     body {
         padding-left: 17rem;
     }
@@ -100,6 +96,10 @@
     .avatar-picture img {
         width: 380px;
         height: 380px;
+    }
+
+    .avatar2 {
+        margin-top: -46px;
     }
 
     .academy {
@@ -168,6 +168,10 @@
     .about-section {
         margin-top: 50px;
     } 
+
+    .avatar2 {
+        margin-top: -2px;
+    }
 
     .my-description {
         font-size: 1.7rem;
