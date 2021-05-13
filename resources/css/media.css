@@ -1,0 +1,421 @@
+
+@media only screen and (max-width: 1700px) {
+    .my-presentation {
+        height: 100%; 
+    } 
+
+    .name-heading {
+        font-size: 6rem;
+    }
+
+    .my-description {
+        font-size: 1.8rem;
+        color: #141414;
+        padding-bottom: 10px;
+    }
+
+    .name-subheading {
+        font-size: 3.5rem;
+    }
+
+    .my-img {
+        margin: 100px 0 0 80px;
+    }
+
+    .avatar-picture img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .io-image img {
+        height: 500px;
+        width: 450px;       
+    }
+
+    .about-me {
+        margin: 10px 0 0 80px;
+    }
+
+    .avatar2 {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    
+    body {
+        padding-left: 17rem;
+    }
+
+    .navigation-bar {
+        width: 17rem;
+        height: 100vh;
+        padding: 35px 0 0 0;
+    }
+
+    .my-description {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .io-image img {
+        height: 400px;
+        width: 350px;   
+        margin-left: -40px;
+    }
+
+    .avatar {
+        margin-left: 25px;
+    }
+
+    .academy {
+        margin-left: 150px;
+    }
+
+    .start-date::after {
+        content: '';
+        margin-left: 10px;
+        margin-top: -138px;
+    }
+
+    .about-me {
+        margin: 10px 0 0 80px;
+    }
+
+     .home-scroller {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    body {
+        padding-left: 17rem;
+    }
+
+    .navigation-bar {
+        width: 17rem;
+        padding: 35px 0 0 0;
+    }
+
+    .avatar-picture img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .academy {
+        margin-left: 80px;
+        margin-top: -100px;
+    }
+
+    .io-image img {
+        display: none;
+    }
+
+    .academy-heading {
+        margin-top: 160px;
+        margin-bottom: 0px;
+    }
+
+    .start-date::after {
+        margin-left: 120px;
+    }
+
+    .about-section {
+        margin-top: -50px;
+    }
+
+    .about-me {
+        margin : 10px 0 0 80px;
+    }
+    
+    .last-project {
+        display: none;
+    }
+
+    .name-heading {
+        font-size: 4.7rem;
+    }
+
+    .name-subheading {
+        font-size: 3.5rem;
+    }
+
+    .hello-icon, 
+    .home-scroller {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1205px) {
+    body {
+        padding-left: 15rem;
+    } 
+
+    .navigation-bar {
+        width: 15rem;
+        padding: 35px 0 0 0;
+    }
+
+    .link {
+        font-size: 2rem;
+    }
+
+    .menu-description {
+        font-size: 1.3rem;
+        padding-bottom: 1px;
+    }
+
+    .about-section {
+        margin-top: 50px;
+    } 
+
+    .my-description {
+        font-size: 1.7rem;
+        padding-bottom: 20px;
+    }
+
+    .name-heading {
+        font-size: 4.6rem;
+    }
+
+    .name-subheading {
+        color: #ffffff;
+        font-size: 3rem;
+        font-weight: 200;
+    }
+
+    .avatar-picture img {
+        width: 80%;
+        height: 85%;
+    }
+
+    .about img {
+        width: 300px;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: -380px;
+    }
+
+    .my-img {
+        margin: 100px 0 0 0px;
+    }
+
+    .academy-details {
+        padding-top: 0;
+    }
+
+    .academy-heading {
+        margin-top: 210px;
+        margin-bottom: 0px;
+    }
+
+    .start-date::after {
+        margin-left: 110px;
+        margin-top: -70px;
+    }
+
+    .home-scroller {
+        display: none;
+    }
+
+    .home-up {
+        position: absolute;
+        top: 100%;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 1021px) {
+    .my-presentation {
+        flex-direction: column;
+    } 
+
+    .name-heading {
+        font-size: 3.8rem;
+        margin-right: 70px;
+    }
+
+    .name-subheading {
+        font-size: 3rem;
+        margin-right: 70px;
+    }
+
+    .my-description {
+        margin-right: 70px;
+    }
+
+    .my-img {
+        margin: 10px 0 0 0px;
+    }   
+
+    .avatar-picture {
+        height: 200px;
+    }
+
+    .avatar-picture img {
+        width: 199px;
+        height: 199px;
+    }
+
+    .hello-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .academy {
+        margin-left: 80px;
+    }
+
+    .academy-heading {
+        font-size: 7rem;
+        margin-top: 200px;
+    }
+
+    .academy-details p::before {
+        width: 65px;    
+        height: 65px; 
+        background-size: 65px 65px; 
+        margin-left: -70px;
+    }
+
+    .io-image img {
+        margin-top: 160px;  
+    }
+
+    .start-date::after {
+        display: none;
+    }
+
+    .portfolio-heading, 
+    .about-section-subheading {
+        font-size: 7em;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about img {
+        width: 400px;
+        height: 400px;
+        margin-left: 8px;
+        margin-top: -80px
+    }
+
+    .myreal-photo {
+        width: 120px;
+        height: 120px;
+        margin-right: 30px;    
+        margin-left: 30px;    
+    }
+
+    .home-scroller {
+        position: absolute;
+        top: 84%;
+        left: 50%;
+    }
+
+    .home-scroller {
+        display: none;
+    }
+
+    .home-up {
+        position: absolute;
+        top: 100%;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .academy-heading {
+        font-size: 7rem;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .academy-heading,
+    .about-section-subheading {
+        font-size: 7rem;
+    }
+
+    .myreal-photo {
+        width: 150px;
+    }
+
+    .home-up {
+        position: absolute;
+        top: 100%;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 668px)  {
+    .about-section-subheading {
+        font-size: 5rem;
+    }
+
+    .academy-heading, 
+    .portfolio-heading {
+        font-size: 4.35em;
+    }
+
+    .academy-details p::before {
+        width: 45px;    
+        height: 45px;
+        background-size: 45px 45px;
+        margin-left: -50px; 
+    }
+
+    .avatar-picture {
+        display: none;
+    }
+
+    .avatar2 {
+        margin-left: -80px;
+    }
+
+    .wrap-container {
+        margin: 0;
+    }
+
+    .myreal-photo {
+        width: 140px;
+        height: 80px;
+    }
+
+    .home-up {
+        position: absolute;
+        top: 100%;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .about-section-subheading, 
+    .academy-heading, 
+    .portfolio-heading {
+        font-size: 4.35rem;
+    }
+
+    .academy-heading {
+        margin-left: -30px;
+    }
+
+    .academy-details p::before {
+        width: 50px;    
+        height: 50px; 
+        background-size: 50px 50px; 
+        margin-left: -60px;
+    }
+
+    .avatar2 {
+        margin-left: -95px;
+    }
+
+    .myreal-photo {
+        width: 190px;
+        height: 100px;
+    }
+}
+
