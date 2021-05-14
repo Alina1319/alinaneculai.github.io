@@ -195,9 +195,9 @@ a {
    padding-top: 90px;
 }
 
-.academy-details p::before {
+.academy-details ::before {
     content: '';
-    background: url('/resources/imgs/io\ academy.png'); 
+    background: url('/resources/imgs/io-academy.png'); 
     border-radius: 50%;
     width: 85px;    
     height: 85px; 
